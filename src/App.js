@@ -1,11 +1,13 @@
-import React from 'react';
+import React from 'react'
+import AppointmentsDayView from './components/appointments-day-view/AppointmentsDayView'
+import { sampleAppointments } from './sampleData'
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello1</h1>
+      <AppointmentsDayView appointments={sampleAppointments} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

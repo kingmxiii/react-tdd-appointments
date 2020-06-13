@@ -3,11 +3,7 @@ import AppointmentsDayView from './components/appointments-day-view/Appointments
 import { sampleAppointments } from './sampleData'
 
 function App() {
-  return (
-    <div className="App">
-      <AppointmentsDayView appointments={sampleAppointments} />
-    </div>
-  )
+  return <AppointmentsDayView appointments={sampleAppointments} />
 }
 
 export default App

@@ -24,7 +24,7 @@ describe('CustomerForm', () => {
     })
 
     it('has a submit button', () => {
-      const button = formComponent.find(`button[type="submit"]`)
+      const button = formComponent.find(`input[type="submit"]`)
       expect(button.length).toBe(1)
     })
 

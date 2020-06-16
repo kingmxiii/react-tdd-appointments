@@ -49,7 +49,7 @@ const CustomerForm = ({ firstName, lastName, phoneNumber, onSubmit }) => {
         value={customer.phoneNumber}
         onChange={e => handleChange(e)}
       />
-      <button type="submit">Add</button>
+      <input type="submit" value="Add" />
     </form>
   )
 }
